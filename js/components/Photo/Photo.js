@@ -1,12 +1,12 @@
 import React from "react";
-
 import { ScrollView, Text, Image, View } from "react-native";
+import styles from "./styles";
 
 const Photo = ({ title, url }) => {
   return (
-    <View>
-      <Text>{title}</Text>
-      <Image style={{ width: 50, height: 50 }} source={{ uri: url }} />
+    <View style={styles.container}>
+      <Text style={styles.title}>{title}</Text>
+      <Image style={styles.image} source={{ uri: url }} />
     </View>
   );
 };

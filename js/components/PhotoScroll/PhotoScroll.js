@@ -5,7 +5,9 @@ import Photo from "../Photo";
 const PhotoScroll = ({ dataSource }) => {
   return (
     <FlatList
+      horizontal={true}
       data={dataSource}
+      keyExtractor={item => item.id}
       renderItem={({ item }) => <Photo title={item.title} url={item.url} />}
     />
   );
