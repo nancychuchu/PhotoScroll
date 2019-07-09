@@ -1,10 +1,15 @@
 import React from "react";
-import { List, FlatList, Text, View, Image, ScrollView } from "react-native";
+import { Text, View } from "react-native";
 import PhotoScroll from "../../components/PhotoScroll";
-import Photo from "../../components/Photo";
+import styles from "./styles";
 
 const Main = ({ dataSource }) => {
-  return <PhotoScroll dataSource={dataSource} />;
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}> Nancy's photo reel </Text>
+      <PhotoScroll dataSource={dataSource} />
+    </View>
+  );
 };
 
 export default Main;

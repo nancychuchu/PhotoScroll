@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     alignContent: "center",
     width: width * 0.9,
     height: width * 0.9,
-    margin: width * 0.1
+    margin: width * 0.05
   },
   title: {
     position: "absolute",
@@ -21,7 +21,16 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
-    height: "100%"
+    height: "100%",
+    borderRadius: 10,
+    borderWidth: 5,
+    borderColor: "#d5bdbd"
+  },
+  shadow: {
+    shadowColor: "#001f4b",
+    shadowRadius: 5,
+    shadowOpacity: 0.5,
+    shadowOffset: { height: 10, width: 10 }
   }
 });
 

@@ -6,7 +6,12 @@ const Photo = ({ title, url }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
-      <Image style={styles.image} source={{ uri: url }} />
+      <View style={styles.shadow}>
+        <Image
+          style={styles.image}
+          source={{ uri: url, cache: "only-if-cached" }}
+        />
+      </View>
     </View>
   );
 };
