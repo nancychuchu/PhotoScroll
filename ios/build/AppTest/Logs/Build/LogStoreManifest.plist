@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>38F25DA2-CDC7-4012-9A71-BFB640300E95</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>38F25DA2-CDC7-4012-9A71-BFB640300E95.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AppTest with scheme AppTest and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>584478370.17806602</real>
+			<key>timeStoppedRecording</key>
+			<real>584478372.71396899</real>
+			<key>title</key>
+			<string>Building project AppTest with scheme AppTest and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>38F25DA2-CDC7-4012-9A71-BFB640300E95</string>
+		</dict>
+		<key>9B1DD504-E68D-4F03-86F5-15310BD83DEF</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9B1DD504-E68D-4F03-86F5-15310BD83DEF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project AppTest with scheme AppTest and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>584481829.78616095</real>
+			<key>timeStoppedRecording</key>
+			<real>584481834.41596305</real>
+			<key>title</key>
+			<string>Building project AppTest with scheme AppTest and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>9B1DD504-E68D-4F03-86F5-15310BD83DEF</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
