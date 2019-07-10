@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Main from "./Main";
-// import Loader from "../../components/Loader";
-// import { List, ListItem } from "react-native";
+import ShuffleButton from "../../components/ShuffleButton";
+import Loader from "../../components/Loader";
+import { List, View, Button } from "react-native";
+import styles from "./styles";
 
 class MainContainer extends Component {
   constructor(props) {
@@ -24,8 +26,27 @@ class MainContainer extends Component {
       .catch(error => console.log(error));
   }
 
+  _shuffle() {
+    const dataSource = this.state.dataSource.sort(() => Math.random() - 0.5);
+    this.setState({ dataSource });
+  }
+
   render() {
-    return <Main dataSource={this.state.dataSource} />;
+    if (this.state.loading) return <Loader />;
+    return (
+      <View>
+        <Main dataSource={this.state.dataSource.slice(0, 100)} />
+        <Button
+          onPress={() => {
+            this._shuffle();
+          }}
+          type="outline"
+          style={styles.button}
+          title="Shuffle Images"
+          color="#d5bdbd"
+        />
+      </View>
+    );
   }
 }
 

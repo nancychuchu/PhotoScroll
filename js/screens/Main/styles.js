@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 25,
     textAlign: "center"
-  }
+  },
+  button: {}
 });
 
 export default styles;
