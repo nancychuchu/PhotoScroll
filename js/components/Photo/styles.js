@@ -24,14 +24,15 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     borderWidth: 5,
     borderColor: "#d5bdbd"
+  },
+  shadow: {
+    borderRadius: 10,
+    shadowColor: "#001f4b",
+    shadowRadius: 5,
+    shadowOpacity: 0.5,
+    shadowOffset: { height: 10, width: 10 },
+    backgroundColor: "#fff"
   }
-  // shadow: {
-  //   shadowColor: "#001f4b",
-  //   shadowRadius: 5,
-  //   shadowOpacity: 0.5,
-  //   shadowOffset: { height: 10, width: 10 },
-  //   backgroundColor: "#fff"
-  // }
 });
 
 export default styles;
