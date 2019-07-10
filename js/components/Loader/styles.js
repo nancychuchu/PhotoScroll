@@ -7,8 +7,7 @@ const styles = StyleSheet.create({
   },
   loader: {
     justifyContent: "center",
-    alignItems: "center",
-    color: "#9963ea"
+    alignItems: "center"
   }
 });
 
