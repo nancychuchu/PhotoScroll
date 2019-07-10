@@ -8,10 +8,7 @@ const Photo = ({ title, url }) => {
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
       <View style={styles.shadow}>
-        <Image
-          style={styles.image}
-          source={{ uri: url, cache: "only-if-cached" }}
-        />
+        <Image style={styles.image} source={{ uri: url }} />
       </View>
     </View>
   );
