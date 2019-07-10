@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollView, Text, Image, View } from "react-native";
+import { Text, Image, View } from "react-native";
 import styles from "./styles";
 
 const Photo = ({ title, url }) => {

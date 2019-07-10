@@ -5,7 +5,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    alignContent: "center",
     width: width * 0.9,
     height: width * 0.9,
     margin: width * 0.05
@@ -25,13 +24,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     borderWidth: 5,
     borderColor: "#d5bdbd"
-  },
-  shadow: {
-    shadowColor: "#001f4b",
-    shadowRadius: 5,
-    shadowOpacity: 0.5,
-    shadowOffset: { height: 10, width: 10 }
   }
+  // shadow: {
+  //   shadowColor: "#001f4b",
+  //   shadowRadius: 5,
+  //   shadowOpacity: 0.5,
+  //   shadowOffset: { height: 10, width: 10 },
+  //   backgroundColor: "#fff"
+  // }
 });
 
 export default styles;

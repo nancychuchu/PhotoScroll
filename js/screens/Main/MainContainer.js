@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Main from "./Main";
-import ShuffleButton from "../../components/ShuffleButton";
+
 import Loader from "../../components/Loader";
-import { List, View, Button } from "react-native";
+import { View, Button } from "react-native";
 import styles from "./styles";
 
 class MainContainer extends Component {

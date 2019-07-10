@@ -1,7 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import { Text, View } from "react-native";
-import PhotoScroll from "../../components/PhotoScroll";
-import ShuffleButton from "../../components/ShuffleButton";
 import styles from "./styles";
 
 const Main = ({ dataSource }) => {
