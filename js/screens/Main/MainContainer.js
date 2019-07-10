@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Main from "./Main";
-
 import Loader from "../../components/Loader";
 import { View, Button } from "react-native";
+
 import styles from "./styles";
 
 class MainContainer extends Component {

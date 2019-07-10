@@ -15,7 +15,11 @@ const styles = StyleSheet.create({
     fontSize: 25,
     textAlign: "center"
   },
-  button: {}
+  button: {
+    borderStyle: "solid",
+    borderWidth: 4,
+    borderColor: "#d5dbdb"
+  }
 });
 
 export default styles;

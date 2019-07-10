@@ -1,6 +1,7 @@
 import React from "react";
 import { Text, Image, View } from "react-native";
 import styles from "./styles";
+import PropTypes from "prop-types";
 
 const Photo = ({ title, url }) => {
   return (
@@ -14,6 +15,11 @@ const Photo = ({ title, url }) => {
       </View>
     </View>
   );
+};
+
+Photo.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired
 };
 
 export default Photo;
